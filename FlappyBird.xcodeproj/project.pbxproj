@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA172B6A19BA038100939D93 /* flappybird.png in Resources */ = {isa = PBXBuildFile; fileRef = DA172B6419BA038100939D93 /* flappybird.png */; };
+		DA172B6B19BA038100939D93 /* flappybird@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA172B6519BA038100939D93 /* flappybird@2x.png */; };
+		DA172B6C19BA038100939D93 /* obstacle0.png in Resources */ = {isa = PBXBuildFile; fileRef = DA172B6619BA038100939D93 /* obstacle0.png */; };
+		DA172B6D19BA038100939D93 /* obstacle0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA172B6719BA038100939D93 /* obstacle0@2x.png */; };
+		DA172B6E19BA038100939D93 /* obstacle1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA172B6819BA038100939D93 /* obstacle1.png */; };
+		DA172B6F19BA038100939D93 /* obstacle1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA172B6919BA038100939D93 /* obstacle1@2x.png */; };
 		DA30C0C219B9D48500E84467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30C0C119B9D48500E84467 /* AppDelegate.swift */; };
 		DA30C0C419B9D48600E84467 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA30C0C319B9D48600E84467 /* GameScene.sks */; };
 		DA30C0C619B9D48600E84467 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30C0C519B9D48600E84467 /* GameScene.swift */; };
@@ -27,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA172B6419BA038100939D93 /* flappybird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappybird.png; sourceTree = "<group>"; };
+		DA172B6519BA038100939D93 /* flappybird@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flappybird@2x.png"; sourceTree = "<group>"; };
+		DA172B6619BA038100939D93 /* obstacle0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obstacle0.png; sourceTree = "<group>"; };
+		DA172B6719BA038100939D93 /* obstacle0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "obstacle0@2x.png"; sourceTree = "<group>"; };
+		DA172B6819BA038100939D93 /* obstacle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obstacle1.png; sourceTree = "<group>"; };
+		DA172B6919BA038100939D93 /* obstacle1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "obstacle1@2x.png"; sourceTree = "<group>"; };
 		DA30C0BC19B9D48500E84467 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA30C0C019B9D48500E84467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA30C0C119B9D48500E84467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +97,12 @@
 				DA30C0C719B9D48600E84467 /* GameViewController.swift */,
 				DA30C0C919B9D48600E84467 /* Main.storyboard */,
 				DA30C0CC19B9D48600E84467 /* Images.xcassets */,
+				DA172B6419BA038100939D93 /* flappybird.png */,
+				DA172B6519BA038100939D93 /* flappybird@2x.png */,
+				DA172B6619BA038100939D93 /* obstacle0.png */,
+				DA172B6719BA038100939D93 /* obstacle0@2x.png */,
+				DA172B6819BA038100939D93 /* obstacle1.png */,
+				DA172B6919BA038100939D93 /* obstacle1@2x.png */,
 				DA30C0BF19B9D48500E84467 /* Supporting Files */,
 			);
 			path = FlappyBird;
@@ -196,8 +214,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA30C0CD19B9D48600E84467 /* Images.xcassets in Resources */,
+				DA172B6D19BA038100939D93 /* obstacle0@2x.png in Resources */,
 				DA30C0C419B9D48600E84467 /* GameScene.sks in Resources */,
+				DA172B6F19BA038100939D93 /* obstacle1@2x.png in Resources */,
+				DA172B6A19BA038100939D93 /* flappybird.png in Resources */,
 				DA30C0CB19B9D48600E84467 /* Main.storyboard in Resources */,
+				DA172B6B19BA038100939D93 /* flappybird@2x.png in Resources */,
+				DA172B6E19BA038100939D93 /* obstacle1.png in Resources */,
+				DA172B6C19BA038100939D93 /* obstacle0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +429,7 @@
 				DA30C0DE19B9D48600E84467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA30C0DF19B9D48600E84467 /* Build configuration list for PBXNativeTarget "FlappyBirdTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +438,7 @@
 				DA30C0E119B9D48600E84467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
