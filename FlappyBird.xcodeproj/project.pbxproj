@@ -178,7 +178,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = AppCode;
+				ORGANIZATIONNAME = AppCoda;
 				TargetAttributes = {
 					DA30C0BB19B9D48500E84467 = {
 						CreatedOnToolsVersion = 6.0;

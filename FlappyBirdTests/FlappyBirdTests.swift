@@ -3,7 +3,7 @@
 //  FlappyBirdTests
 //
 //  Created by Hossam Ghareeb on 9/5/14.
-//  Copyright (c) 2014 AppCode. All rights reserved.
+//  Copyright (c) 2014 AppCoda. All rights reserved.
 //
 
 import XCTest
